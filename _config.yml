@@ -34,8 +34,8 @@ social:
     url: http://github.com/zinkinapps
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: Madrid, 28007.
+# address:
+#  - line: Madrid, 28007.
 
 # Credits content
 credits: 'Zink in Apps! es una mesa pequeña con un MacBook Pro conectado a una pantalla Dell, un iPad en un sofá, una persona dedicando sus ratos libres a un sueño.'
