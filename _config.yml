@@ -1,8 +1,8 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Zink in Apps!
+email: contacto@zinkinapps.com
+url: https://zinkinapps.github.io
+description: "Este es el sitio donde Zink in Apps! muestra al mundo su pequeña obra. No seas duro, ten en cuenta que todo esto se ha realizado en ratos libres de una única persona."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -15,31 +15,30 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Zink in Apps!
+  location: Madrid
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/zinkinapps
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: 
   - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://bitbucket.org/zinkinapps
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/zinkinapps
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Madrid, 28007.
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Zink in Apps! es una mesa pequeña con un MacBook Pro conectado a una pantalla Dell, un iPad en un sofá, una persona dedicando sus ratos libres a un sueño.'
 
 # Build settings
 markdown: kramdown
