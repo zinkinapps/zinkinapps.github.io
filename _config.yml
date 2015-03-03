@@ -1,6 +1,6 @@
 # Site settings
 title: Zink in Apps!
-email: contacto@zinkinapps.com
+email: jmoreno@zinkinapps.com
 url: https://zinkinapps.github.io
 description: "Este es el sitio donde Zink in Apps! muestra al mundo su pequeña obra. No seas duro, ten en cuenta que todo esto se ha realizado en ratos libres de una única persona."
 
@@ -9,36 +9,30 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: F67C05 #80B3FF
+  secondary: 333 #FD6E8A
+  secondary-dark: 212121 #A2122F
 
 # Footer settings
 footer:
   copyright: Zink in Apps!
-  location: Madrid
-  social: Around the Web
-  credits: Credits
+  location: Localización
+  social: En la web
+  credits: Créditos
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/zinkinapps
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: 
-  - title: bitbucket
-    url: http://bitbucket.org/zinkinapps
   - title: github
     url: http://github.com/zinkinapps
 
 # Postal address (add as many lines as necessary)
-# address:
-#  - line: Madrid, 28007.
+address:
+ - line: Madrid.
 
 # Credits content
-credits: 'Zink in Apps! es una mesa pequeña con un MacBook Pro conectado a una pantalla Dell, un iPad en un sofá, una persona dedicando sus ratos libres a un sueño.'
+credits: 'Pensando, diseñando y programando.'
 
 # Build settings
 markdown: kramdown
