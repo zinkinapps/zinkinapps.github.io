@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: game.png
 alt: image-alt
 project-date: Noviembre 2012
 client: Zink in Apps!
