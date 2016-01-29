@@ -37,3 +37,9 @@ credits: 'Pensando, diseñando y programando.'
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Collection settings
+collections:
+  zings:
+    output: true
+    permalink: /zings/:path/
