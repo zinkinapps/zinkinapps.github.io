@@ -15,14 +15,14 @@ En este artículo vamos a explicar la funcionalidad presente en MadridBus Pro pa
 
 Al abrir la aplicación accedemos a un menú de tabla. Con las siguientes opciones:
 
-* <i class="fa fa-map-marker-o"></i> Cercanas
-* <i class="fa fa-star-o"></i> Favoritas
-* <i class="fa fa-search-o"></i> Buscar
-* <i class="fa fa-gear-o"></i> Ajustes
+* <i class="fa fa-map-marker"></i> Cercanas
+* <i class="fa fa-star"></i> Favoritas
+* <i class="fa fa-search"></i> Buscar
+* <i class="fa fa-gear"></i> Ajustes
 
 El reloj  Pebble (en cualquiera de sus versiones) tiene tres botones en el lado derecho (subir, seleccionar y bajar) y uno en el izquierdo (retroceder). Con los botones superior e inferior del lado derecho nos moveremos arriba y abajo por este menú y con el botón central seleccionaremos la opción a la que queremos acceder.
 
-## <i class="fa fa-map-marker-o"></i> Cercanas
+## <i class="fa fa-map-marker"></i> Cercanas
 
 Al seleccionar la opción **Cercanas** en el menú principal la aplicación buscará las paradas cercanas a la ubicación del reloj en el radio de búsqueda definido en **Ajustes**. Por defecto esté radio de búsqueda es de 150 metros. La ubicación del reloj en realidad es la ubicación del smartphone al que está vinculado.
 
@@ -60,8 +60,8 @@ La pantalla para guardar una parada en la lista de favoritos muestra el número 
 
 Si se pulsa el botón superior la parada no se guarda en la lista de favoritos y volvemos a la pantalla anterior. Si se pulsa el botón inferior se guarda la parada en la lista de favoritos y también volvemos a la pantalla anterior.
 
-##<i class="fa fa-star-o"></i> Favoritas
+##<i class="fa fa-star"></i> Favoritas
 
-##<i class="fa fa-search-o"></i> Buscar
+##<i class="fa fa-search"></i> Buscar
 
-##<i class="fa fa-gear-o"></i> Ajustes
+##<i class="fa fa-gear"></i> Ajustes
