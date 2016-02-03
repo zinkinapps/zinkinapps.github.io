@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-p {
+p, ul {
     font-size: 20px;
 }
 
@@ -442,4 +442,8 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+code, kbd, pre, samp {
+    font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace
 }
