@@ -40,6 +40,4 @@ permalink: pretty
 
 # Collection settings
 collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
+- projects
