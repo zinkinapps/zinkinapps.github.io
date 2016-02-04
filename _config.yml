@@ -40,6 +40,6 @@ permalink: pretty
 
 # Collection settings
 collections:
-  zings:
+  projects:
     output: true
-    permalink: /zings/:path/
+    permalink: /projects/:path/
