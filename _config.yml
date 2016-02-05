@@ -1,7 +1,7 @@
 # Site settings
 title: Zink in Apps!
 email: jmoreno@zinkinapps.com
-url: https://zinkinapps.github.io
+url: https://zinkinapps.com
 description: "Este es el sitio donde Zink in Apps! muestra al mundo su pequeña obra. No seas duro, ten en cuenta que todo esto se ha realizado en ratos libres de una única persona."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
@@ -36,7 +36,7 @@ credits: 'Pensando, diseñando y programando.'
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
 
 # Collection settings
 collections:
