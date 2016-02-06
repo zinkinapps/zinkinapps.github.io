@@ -62,7 +62,7 @@ La pantalla para guardar una parada en la lista de favoritos muestra el número 
 
 Si se pulsa el botón superior la parada no se guarda en la lista de favoritos y volvemos a la pantalla anterior. Si se pulsa el botón inferior se guarda la parada en la lista de favoritos y también volvemos a la pantalla anterior.
 
-##<i class="fa fa-star"></i> Favoritas
+## <i class="fa fa-star"></i> Favoritas
 
 Esta opción mostrará la lista de paradas guardadas en el reloj, bueno en realidad guardadas en el teléfono... Si la lista de paradas favoritas estuviera vacía mostraría una pantalla con el mensaje *No hay favoritos guardados*.
 
@@ -82,7 +82,7 @@ En caso de borrar la última parada de la lista volveremos al menú inicial.
 
 > Desde la versión 1.2 una pulsación larga en el menú inicial nos permitirá borrar la lista de paradas favoritas de una sola vez. 
 
-##<i class="fa fa-search"></i> Buscar
+## <i class="fa fa-search"></i> Buscar
 
 La operación más difícil de realizar en un *smartwatch* es introducir texto libre. Más que difícil es imposible. La pantalla de búsqueda de paradas tiene un funcionamiento similar al de otras aplicaciones de Pebble como la alarma, por ejemplo, que nos trasladan a la época de los recreativos y a la forma de introducir nuestro *alias* en las pantallas de Récords.
 
@@ -95,7 +95,7 @@ Una pulsación larga borrará todo los números que hayamos introducido y nos vo
 
 > Si la parada está sin servicio o si la parada no existe se mostrará el mismo mensaje: *Parada sin servicio*. En este punto se podría hacer una llamada al servicio de la EMT para comprobar si la parada existe pero hemos considerado que sería menos eficiente. Este es el motivo por el que en el menú de *próximas llegadas* solo aparece el número de parada y no la dirección de la misma.  En el caso de que esa parada se guarde en la lista de paradas favoritas sí que se consultará la información disponible de la misma, con el objetivo de que la información de las paradas favoritas sea siempre consistente.
 
-##<i class="fa fa-gear"></i> Ajustes
+## <i class="fa fa-gear"></i> Ajustes
 
 Actualmente, el único ajuste oficial que tiene la aplicación es poder cambiar el radio de búsqueda de paradas. Por defecto es 150 y desde está pantalla se podrá reducir  a 100 o aumentar hasta 500. El funcionamiento es semejante al de la pantalla de búsqueda.
 
