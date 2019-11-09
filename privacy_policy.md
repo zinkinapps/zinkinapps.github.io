@@ -1,5 +1,6 @@
 --- 
-layout: default
+layout: zing
+title: "Pólitica de Privacidad"
 ---
 # Política de Privacidad para aplicaciones móviles
 La información que tienen la obligación de incluir las apps en su política de privacidad debe ser lo más clara y completa posible. Un ejemplo de política de privacidad utilizada en aplicacionesdebería incluir los siguientes apartados:
