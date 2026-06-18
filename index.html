@@ -1,3 +1,100 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zink! Studio — Aplicaciones Modernas</title>
+    <meta name="description" content="Portafolio de aplicaciones iOS modernas, funcionales y diseñadas con atención al detalle.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo" data-i18n="header.logo">iOS Dev</h1>
+                <nav class="nav">
+                    <a href="#apps" data-i18n="header.nav.apps">Aplicaciones</a>
+                    <a href="#about" data-i18n="header.nav.about">Acerca de</a>
+                    <a href="#contact" data-i18n="header.nav.contact">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 data-i18n="hero.title">Aplicaciones iOS<br>diseñadas con cuidado</h2>
+                <p data-i18n="hero.description">Desarrollo de aplicaciones modernas, funcionales y elegantes para iOS usando las tecnologías más actuales.</p>
+                <a href="#apps" class="cta-button" data-i18n="hero.cta">Ver mis apps</a>
+            </div>
+            <div class="hero-accent"></div>
+        </div>
+    </section>
+
+    <!-- Sección de Aplicaciones -->
+    <section id="apps" class="apps-section">
+        <div class="container">
+            <h2 class="section-title">Mis Aplicaciones</h2>
+            <div class="apps-grid">
+                
+                <!-- Apps se cargan dinámicamente desde data.js -->
+                <div id="apps-container" class="apps-grid"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title" data-i18n="about.title">Acerca de</h2>
+                <div class="about-text">
+                    <p data-i18n="about.description1">Desarrollador iOS independiente apasionado por crear aplicaciones que combinan funcionalidad, diseño limpio y experiencias de usuario intuitivas.</p>
+                    <p data-i18n="about.description2">Especializado en SwiftUI y arquitecturas modernas. Creo herramientas que resuelven problemas reales y que la gente disfruta usar.</p>
+                    <div class="tech-stack">
+                        <h3 data-i18n="about.stack">Stack Tecnológico</h3>
+                        <ul id="techList">
+                            <li>SwiftUI & UIKit</li>
+                            <li>SwiftData & Core Data</li>
+                            <li>Async/Await</li>
+                            <li>REST APIs & WebSockets</li>
+                            <li>Testing & Performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Conectemos</h2>
+            <div class="contact-content">
+                <p data-i18n="contact.description">¿Interesado en colaborar o tienes una pregunta? Me encantaría escucharte.</p>
+                <div class="contact-links">
+                    <a href="mailto:zinkinapps@gmail.com" class="contact-button" data-i18n="contact.email">Enviar email</a>
+                    <a href="https://twitter.com/jmoreno78" class="contact-button contact-button--secondary" data-i18n="contact.twitter">Twitter</a>
+                    <a href="https://github.com/jmoreno" class="contact-button contact-button--secondary" data-i18n="contact.github">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer.copyright">© 2026. Zink! Studio. Hecho con cuidado.</p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

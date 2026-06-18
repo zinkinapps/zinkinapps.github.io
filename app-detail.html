@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Aplicación</title>
+    <meta name="description" content="Detalles completos de la aplicación iOS">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo" data-i18n="header.logo">← iOS Dev</a>
+                <nav class="nav">
+                    <a href="index.html#apps" data-i18n="header.nav.apps">Aplicaciones</a>
+                    <a href="index.html#about" data-i18n="header.nav.about">Acerca de</a>
+                    <a href="privacy-policy.html" data-i18n="header.nav.privacy">Privacidad</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main id="app-detail-container">
+        <section class="app-detail-hero">
+            <div class="container">
+                <div class="app-detail-header">
+                    <div class="app-detail-icon" id="appIcon"></div>
+                    <div class="app-detail-info">
+                        <h1 id="appName"></h1>
+                        <p id="appCategory" class="app-category"></p>
+                        <p id="appShortDesc" class="app-short-desc"></p>
+                        <div class="app-meta">
+                            <span id="appVersion"></span>
+                            <span id="appPrice"></span>
+                        </div>
+                        <a id="appStoreBtn" href="#" class="cta-button" target="_blank">
+                            Descargar en App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carrusel de Screenshots -->
+        <section class="screenshots-section">
+            <div class="container">
+                <h2>Capturas de Pantalla</h2>
+                <div class="carousel-container">
+                    <button class="carousel-btn carousel-btn--prev" id="prevBtn" aria-label="Anterior">‹</button>
+                    <div class="carousel-viewport">
+                        <div class="carousel-track" id="carouselTrack"></div>
+                    </div>
+                    <button class="carousel-btn carousel-btn--next" id="nextBtn" aria-label="Siguiente">›</button>
+                </div>
+                <div class="carousel-indicators" id="indicators"></div>
+            </div>
+        </section>
+
+        <!-- Descripción Detallada -->
+        <section class="app-description-section">
+            <div class="container">
+                <div class="description-content">
+                    <h2>Acerca de esta app</h2>
+                    <p id="appFullDescription"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Características -->
+        <section class="app-features-section">
+            <div class="container">
+                <h2>Características Principales</h2>
+                <div class="features-grid" id="featuresGrid"></div>
+            </div>
+        </section>
+
+        <!-- Especificaciones Técnicas -->
+        <section class="app-specs-section">
+            <div class="container">
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <h3>Requisitos</h3>
+                        <p id="appRequirements"></p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Versión</h3>
+                        <p id="appVersionDetail"></p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Fecha de Lanzamiento</h3>
+                        <p id="appReleaseDate"></p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Precio</h3>
+                        <p id="appPriceDetail"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stack Tecnológico -->
+        <section class="app-tech-section">
+            <div class="container">
+                <h2>Tecnologías Utilizadas</h2>
+                <div class="tech-tags" id="techTags"></div>
+            </div>
+        </section>
+
+        <!-- Otras Apps -->
+        <section class="other-apps-section">
+            <div class="container">
+                <h2>Más Aplicaciones</h2>
+                <div class="apps-grid" id="otherAppsGrid"></div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>¿Preguntas o Sugerencias?</h2>
+                <p>Me encantaría escuchar tu opinión sobre esta app</p>
+                <a href="index.html#contact" class="cta-button">Contactame</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer.copyright">© 2026. Zink! Studio. Hecho con cuidado.</p>
+            <p style="margin-top: 1rem; font-size: 0.875rem; color: rgba(255,255,255,0.6);">
+                <a href="privacy-policy.html" style="color: inherit;" data-i18n="header.nav.privacy">Política de Privacidad</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
+    <script src="data.js"></script>
+    <script src="app-detail.js"></script>
+</body>
+</html>
